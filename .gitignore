@@ -1,0 +1,6 @@
+*.py[c|o]
+
+.DS_Store
+.project
+.pydevproject
+/.settings/
