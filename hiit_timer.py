@@ -32,8 +32,8 @@ def main():
         total += args.normal
         sleep(args.normal)
         
-    print('\aCool-down (%d seconds)...' & args.warm_up)
-    total += args.warm_up
+    print('\aCool-down (%d seconds)...' % args.cool_down)
+    total += args.cool_down
     sleep(args.cool_down)
     
     print('\aRountine complete (total %d seconds).' % total)
