@@ -1,3 +1,32 @@
 A little script that I use to time my high-intensity interval workouts.
 
-Requires python 2.7/3.2+.
+Requires Python 2.7/3.2+.
+
+Usage help
+----
+usage: hiit_timer.py [-h] [-d DELAY] warm_up high normal reps cool_down
+
+A timer for high-intensity interval training.
+
+positional arguments:
+  warm_up               Time in seconds for warm-up.
+  high                  Time in seconds for high-intensity exercise.
+  normal                Time in seconds for normal-intensity exercise.
+  reps                  Number of repetitions of high/normal exercise.
+  cool_down             Time in seconds for cool-down.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DELAY, --delay DELAY
+                        Delay before starting routine.
+
+Example usage
+-------------
+
+    ./hiit_timer.py 60 30 60 5 60
+    
+Usage with a specific Python version
+------------------------------------
+
+    python2.7 hiit_timer.py 60 30 60 5 60
+    
